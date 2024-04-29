@@ -1,0 +1,84 @@
+.App{
+    text-align: center;
+    height: 100vh;
+}
+
+.App-header{
+    background-color: #282c34;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    background-color: #4a515f;
+}
+
+.weather{
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.Loading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.weather-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.wather-card h2{
+    font-size: 2.5rem;
+    color: rgb(230, 228, 228);
+    margin-bottom: 1rem;
+}
+
+.wather-card .temp{
+    font-size: 5rem;
+    color: white;
+}
+
+.wather-card .feels-like {
+    font-size: 1.5rem;
+    color: rgb(202, 201, 201);
+}
+
+.wather-card img {
+    width: 7rem;
+    height: 7rem;
+}
+
+.wather-card .condition {
+    font-size: 1.5rem;
+    color: rgb(230, 228, 228);
+}
+
+.wather-card .description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.wather-card .description p{
+    font-size: 1rem;
+    color: rgb(211, 209, 209);
+}
